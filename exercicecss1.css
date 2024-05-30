@@ -42,7 +42,7 @@ h1 {
 /*################################################################*/
 /*################################################################*/
 
-/* ecran large (plus de 900px) */
+/* ecran large (plus de 1024) */
 @media screen and (min-width: 1025px) {
 
     body {
@@ -204,8 +204,8 @@ footer{
 
 
 }
-/* ecran medium (de 601px à 1024) */
-@media screen and (min-width: 640px) and (max-width: 1024px) {
+/* ecran medium (de 640px à 1024) */
+@media screen and (min-width: 400px) and (max-width: 1024px) {
 
 
 
@@ -326,6 +326,7 @@ padding-top: 20px;
     flex-direction: column;
     flex-wrap: wrap;
     flex-basis: auto;
+    /* align-items: flex-start; */
     box-sizing: content-box;
     margin-left: 0px;
     align-self: auto;
@@ -349,6 +350,12 @@ padding-top: 20px;
 
 }
 
+/* .reglage {
+    /* align-items: center;  */
+    /* justify-content: center;
+    box-sizing: border-box; */ 
+
+/* } */
 
 
 /* footer ##########################*/
@@ -374,11 +381,10 @@ footer {
 
 
 }
-/* ecran small (de 360px à 639px) */
-@media screen and (min-width: 360px) and (max-width: 639px) {
+/* ecran small () */
+@media screen and  (max-width: 399px) {
 body {
         background-color: var(--color-fondpage);
-
 
         font-size: 22px;
         color: var(--color-text);
@@ -392,7 +398,7 @@ body {
         box-sizing: border-box;
         background-color: var(--color-boxF);
         display: flex;
-        font-size: 26px;
+        font-size: 16px;
         width: 100%;
         min-height: 60px;
         font-weight: lighter;
@@ -436,7 +442,7 @@ body {
     .logo {
         text-align: center;
         /* background-color: crimson; */
-        width: 400px;
+        width: 100px;
         margin: 0 auto;
         margin-bottom: 40px;
     }
@@ -471,7 +477,7 @@ body {
 
     .colonn1 {
         display: flex;
-
+        font-size: 18px;
         justify-content: center;
         flex-direction: column;
         align-self: auto;
@@ -527,7 +533,7 @@ body {
 
             width: 100%;
             margin: 0 auto;
-            font-size: 20px;
+            font-size: 14px;
             text-decoration: none;
     }
 
